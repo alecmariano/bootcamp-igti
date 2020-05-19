@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="style.css"/>
+    <title>IGTI - Trabalho Prático 1</title>
+</head>
+<body>
+    <form>
+        <div id="text">
+            <ul>
+                <li>Red:</li>
+                <li>Green:</li>
+                <li>Blue:</li>
+            </ul>
+        </div>
+        <div id="slider">
+            <ul>
+                <li><input class="slider" type="range" id="red_range" min="0" max="255" value="0" onchange="changeColor()"></li>
+                <li><input class="slider" type="range" id="green_range" min="0" max="255" value="0" onchange="changeColor()"></li>
+                <li><input class="slider" type="range" id="blue_range" min="0" max="255" value="0" onchange="changeColor()"></li>
+            </ul>
+        </div>
+        <div id="disabled_input">
+            <ul>
+                <li><input class="textin" type="text" id="red_text" disabled value="0"></li>
+                <li><input class="textin" type="text" id="green_text" disabled value="0"></li>
+                <li><input class="textin" type="text" id="blue_text" disabled value="0"></li>
+            </ul>
+        </div>
+    </form>
+    <div id="box"></div>
+    <script src="script.js"></script>
+</body>
+</html>

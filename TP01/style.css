@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+}
+
+li{
+    justify-items: stretch;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+#text{
+    align-content: space-around;
+    line-height: 1.7;
+}
+
+#disabled_input{
+    line-height: 1.8;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    margin-left: 9rem;
+}
+
+.textin{
+    width: 3rem;
+}
